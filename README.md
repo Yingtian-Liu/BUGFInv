@@ -1,7 +1,5 @@
 # BUGFInv
 
 
-## 🎨 Method Visualization  
-
-### 🔬 Exploration of Utility Function Parameter Space  
-![Utility Function Exploration](https://github.com/Yingtian-Liu/Nash-multitask-learning-prestack-three-parameter-inversion/blob/main/Image/Exploration%20of%20utility%20function%20parameter%20space.png)  
+## 🔬 Conceptual comparison of multi-task learning gradient aggregation strategies in prestack three-parameter inversion 
+![Utility Function Exploration](https://github.com/Yingtian-Liu/BUGFInv/blob/main/Image/Conceptual%20comparison%20of%20multi-task%20learning%20gradient%20aggregation%20strategies%20in%20prestack%20three-parameter%20inversion.png)  
