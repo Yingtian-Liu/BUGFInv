@@ -189,11 +189,6 @@ w_t = Λ_t / Σ_{t'} Λ_t'  # Normalized task weights
 
 This ensures that tasks with lower uncertainty (higher confidence) dominate the gradient updates, while uncertain tasks have reduced influence.
 
-
-### Visualization Examples
-
-The repository includes visualization tools for comparing inversion results across different methods and parameter spaces.
-
 ## 📝 Citation
 
 If you use BUGFInv in your research or industrial applications, please cite:
