@@ -141,29 +141,17 @@ bugfinv.backward(
 
 ### Experimental Results
 
-BUGFInv has been extensively validated on both synthetic and field 3D seismic datasets, demonstrating superior performance in:
+BUGFInv has been extensively validated on 3D synthetic datasets, demonstrating superior performance across all evaluation metrics:
 
-1. **Accuracy Improvement**: 
-   - **P-wave velocity**: ~15-20% improvement in PCC compared to conventional methods
-   - **S-wave velocity**: ~20-25% improvement in R² scores
-   - **Density**: ~10-15% reduction in NRMSE
-
-2. **Robustness with Limited Data**:
-   - Maintains performance with as few as 4 training wells
-   - Stable inversion results across varying geological complexities
-
-3. **Noise Resilience**:
-   - Reliable parameter estimation under low SNR conditions (down to 2 dB)
-   - Effective handling of seismic data artifacts and acquisition noise
-
-### Quantitative Metrics
+### Quantitative Performance Comparison
+The table below presents quantitative evaluation metrics comparing BUGFInv with three baseline methods for 3D prestack three-parameter inversion:
 
 | Method | PCC (Vp) | R² (Vs) | SSIM (ρ) | NRMSE (Overall) |
 |--------|----------|---------|----------|-----------------|
-| L-BFGS | 0.82 | 0.75 | 0.88 | 0.18 |
-| CW | 0.85 | 0.78 | 0.90 | 0.15 |
-| Nash | 0.88 | 0.81 | 0.92 | 0.12 |
-| **BUGFInv** | **0.94** | **0.89** | **0.96** | **0.08** |
+| L-BFGS | 0.9768 | 0.9438 | 0.7967 | 0.1054 |
+| CW | 0.9858 | 0.9774 | 0.9221 | 0.0596 |
+| Nash | 0.9879 | 0.9840 | 0.9316 | 0.531 |
+| **BUGFInv** | **0.9924** | **0.9895** | **0.9556** | **0.0348** |
 
 ## 🏭 Industrial Applications
 
