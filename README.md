@@ -1,8 +1,9 @@
 # BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1.1-red.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-green.svg)](https://www.python.org/)
+[![Last Commit](https://img.shields.io/github/last-commit/Yingtian-Liu/BUGFInv)](https://github.com/Yingtian-Liu/BUGFInv/commits/main)
+[![Open Issues](https://img.shields.io/github/issues/Yingtian-Liu/BUGFInv)](https://github.com/Yingtian-Liu/BUGFInv/issues)
 
 BUGFInv is a Bayesian multi-task learning framework specifically designed for 3D prestack three-parameter seismic inversion. It implements uncertainty-aware gradient fusion that dynamically weights task contributions based on their predictive confidence, significantly improving inversion accuracy and robustness in multi-parameter estimation.
 
@@ -216,7 +217,6 @@ We welcome contributions from the geophysical and machine learning communities:
 1. **Feature Requests**: Open an issue to discuss potential enhancements
 2. **Bug Reports**: Help us improve reliability and performance
 3. **Algorithm Extensions**: Extend BUGFInv to related geophysical inversion problems
-4. **Case Studies**: Share your application experiences and results
 
 ### Development Workflow
 1. Fork the repository
@@ -224,9 +224,11 @@ We welcome contributions from the geophysical and machine learning communities:
 3. Test your changes thoroughly
 4. Submit a pull request with detailed documentation
 
-## 📄 License
+## 📄 Copyright Notice
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This code is the companion implementation of the research paper **"BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion"**. The manuscript is currently under review in an academic journal.
+
+Prior to the formal publication of the paper, the code is provided for academic research reference only. For any usage inquiries or collaboration interests, please contact the author through GitHub Issues.
 
 ## 📧 Contact and Support
 
@@ -246,4 +248,3 @@ For technical questions, collaboration opportunities, or consulting:
 ---
 
 **Note**: The complete manuscript detailing the theoretical framework, algorithmic details, and comprehensive experimental validation is currently under review. The code provided here implements the core BUGFInv algorithm for Bayesian uncertainty-aware gradient fusion in 3D prestack three-parameter seismic inversion.
-
