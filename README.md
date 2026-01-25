@@ -2,8 +2,6 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1.1-red.svg)](https://pytorch.org/)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-green.svg)](https://www.python.org/)
-[![Last Commit](https://img.shields.io/github/last-commit/Yingtian-Liu/BUGFInv)](https://github.com/Yingtian-Liu/BUGFInv/commits/main)
-[![Open Issues](https://img.shields.io/github/issues/Yingtian-Liu/BUGFInv)](https://github.com/Yingtian-Liu/BUGFInv/issues)
 
 BUGFInv is a Bayesian multi-task learning framework specifically designed for 3D prestack three-parameter seismic inversion. It implements uncertainty-aware gradient fusion that dynamically weights task contributions based on their predictive confidence, significantly improving inversion accuracy and robustness in multi-parameter estimation.
 
@@ -243,8 +241,12 @@ For technical questions, collaboration opportunities, or consulting:
 - This research builds upon foundational work in Bayesian deep learning and seismic inversion
 - We thank the open-source community for valuable tools and libraries
 - Special appreciation to colleagues and reviewers for their constructive feedback
-- The network architecture referenced in this work is available at: [Nash-multitask-learning-prestack-three-parameter-inversion](https://github.com/Yingtian-Liu/Nash-multitask-learning-prestack-three-parameter-inversion)
+- The network architecture is based on our previous Nash multi-task learning framework: [GitHub repository](https://github.com/Yingtian-Liu/Nash-multitask-learning-prestack-three-parameter-inversion) | [Published paper](https://pubs.geoscienceworld.org/seg/geophysics/article-abstract/90/4/R175/654779/Nash-multitask-learning-semisupervised-temporal)
 
 ---
 
 **Note**: The complete manuscript detailing the theoretical framework, algorithmic details, and comprehensive experimental validation is currently under review. The code provided here implements the core BUGFInv algorithm for Bayesian uncertainty-aware gradient fusion in 3D prestack three-parameter seismic inversion.
+
+
+
+
