@@ -7,7 +7,7 @@ BUGFInv is a Bayesian multi-task learning framework specifically designed for 3D
 
 ## 🔬 Conceptual Overview
 
-BUGFInv implements a novel Bayesian uncertainty-aware gradient aggregation strategy for simultaneous estimation of three seismic parameters: P-wave velocity (Vp), S-wave velocity (Vs), and density (ρ). Unlike conventional fixed-weight or heuristic approaches, BUGFInv dynamically adjusts task contributions based on their predictive uncertainty, effectively resolving gradient conflicts and improving parameter estimation.
+BUGFInv implements a novel Bayesian uncertainty-aware gradient aggregation strategy for simultaneous estimation of three seismic parameters: P-wave velocity (Vp), S-wave velocity (Vs), and density (ρ). Unlike conventional fixed-weight or nonheuristic approaches, BUGFInv dynamically adjusts task contributions based on their predictive uncertainty, effectively resolving gradient conflicts and improving parameter estimation.
 
 ![Utility Function Exploration](https://github.com/Yingtian-Liu/BUGFInv/blob/main/Image/Conceptual%20comparison%20of%20multi-task%20learning%20gradient%20aggregation%20strategies%20in%20prestack%20three-parameter%20inversion.png)
 
