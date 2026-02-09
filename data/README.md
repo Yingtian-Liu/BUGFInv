@@ -1,4 +1,4 @@
-![Project Illustration](path/to/your/image.png)  
+![Project Illustration](https://github.com/Yingtian-Liu/BUGFInv/blob/main/data/Image/model.png)  
 *Caption: Example illustration of the project workflow or data structure.*
 
 ---
