@@ -194,7 +194,7 @@ This ensures that tasks with lower uncertainty (higher confidence) dominate the 
 If you use BUGFInv in your research or industrial applications, please cite:
 
 ```bibtex
-@article{liu2024bugfinv,
+@article{liu2026bugfinv,
   title={Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion},
   author={Yingtian Liu, Yong Li, Junheng Peng, Xiaowen Wang, Mingwei Wang, and Jianyong Xie
 },
