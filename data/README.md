@@ -1,7 +1,3 @@
-# Project Name
-
-Brief description of your project, its purpose, and key features.
-
 ![Project Illustration](path/to/your/image.png)  
 *Caption: Example illustration of the project workflow or data structure.*
 
