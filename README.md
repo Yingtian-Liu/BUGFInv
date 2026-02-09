@@ -197,8 +197,8 @@ If you use BUGFInv in your research or industrial applications, please cite:
 @article{liu2024bugfinv,
   title={BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion},
   author={Liu, Yingtian},
-  journal={Geophysics},
-  year={2024},
+  journal={IEEE TGRS},
+  year={2026},
   note={Under Review}
 }
 ```
