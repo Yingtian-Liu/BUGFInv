@@ -195,7 +195,7 @@ If you use BUGFInv in your research or industrial applications, please cite:
 
 ```bibtex
 @article{liu2024bugfinv,
-  title={BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion},
+  title={Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion},
   author={Yingtian Liu, Yong Li, Junheng Peng, Xiaowen Wang, Mingwei Wang, and Jianyong Xie
 },
   journal={IEEE TGRS},
