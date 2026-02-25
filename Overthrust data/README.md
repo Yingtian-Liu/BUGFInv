@@ -1,4 +1,4 @@
-![Project Illustration](https://github.com/Yingtian-Liu/BUGFInv/blob/main/data/Image/model.png)  
+![Project Illustration](https://github.com/Yingtian-Liu/BUGFInv/blob/main/Overthrust data/Image/model.png)  
 
 ---
 
