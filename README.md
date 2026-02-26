@@ -17,6 +17,21 @@ BUGFInv implements a novel Bayesian uncertainty-aware gradient aggregation strat
 - **Closed-form Posterior Computation**: Efficient exact inference for Gaussian likelihood models
 - **3D Subsurface Elastic Properties Inversion**: Optimized for simultaneous three-parameter estimation from seismic data
 
+## 📦 Repository Structure
+```
+BUGFInv/
+├── BUGFInv/                # Core package directory (source code)
+│   ├── __init__.py         # Package initialization (expose core classes/functions for easy import)
+│   ├── aggregation.py      # Core implementation of Bayesian uncertainty-aware gradient fusion algorithm
+│   ├── bugfinv.py          # Main BUGFInv framework implementation (integrate all modules for end-to-end inversion)
+│   ├── moments.py          # Calculation of first- and second-order moments for gradient distribution approximation via moment matching
+│   ├── posterior.py        # Bayesian posterior inference for task-specific parameters (Gaussian prior/posterior computation)
+│   ├── setup.py            # Subpackage installation configuration
+│   └── util.py             # Auxiliary utilities (loss calculation, parameter validation, gradient processing helpers)
+├── Image/                  # Project figures and conceptual diagrams (gradient aggregation comparison, framework structure, etc.)
+└── README.md               # Project main documentation (installation, usage, technical details, citation)
+```
+
 ## 🏗️ Installation
 
 ### Prerequisites
