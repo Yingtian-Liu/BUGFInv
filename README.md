@@ -1,9 +1,9 @@
-# BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion
+# BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Subsurface Elastic Properties Inversion
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1.1-red.svg)](https://pytorch.org/)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-green.svg)](https://www.python.org/)
 
-BUGFInv is a Bayesian multi-task learning framework specifically designed for 3D prestack three-parameter seismic inversion. It implements uncertainty-aware gradient fusion that dynamically weights task contributions based on their predictive confidence, significantly improving inversion accuracy and robustness in multi-parameter estimation.
+BUGFInv is a Bayesian multi-task learning framework specifically designed for 3D subsurface elastic properties inversion. It implements uncertainty-aware gradient fusion that dynamically weights task contributions based on their predictive confidence, significantly improving inversion accuracy and robustness in multi-parameter estimation.
 
 ## 🔬 Conceptual Overview
 
@@ -15,7 +15,7 @@ BUGFInv implements a novel Bayesian uncertainty-aware gradient aggregation strat
 - **Bayesian Uncertainty Quantification**: Estimates predictive uncertainty for each seismic parameter
 - **Dynamic Gradient Fusion**: Automatically balances task contributions based on uncertainty
 - **Closed-form Posterior Computation**: Efficient exact inference for Gaussian likelihood models
-- **3D Prestack Inversion**: Optimized for simultaneous three-parameter estimation from seismic data
+- **3D Subsurface Elastic Properties Inversion**: Optimized for simultaneous three-parameter estimation from seismic data
 
 ## 🏗️ Installation
 
@@ -45,7 +45,7 @@ pip install -e .
 
 ## 📋 Integration with Seismic Inversion Pipelines
 
-### Basic Usage for 3D Prestack Inversion
+### Basic Usage for 3D Elastic Properties Inversion
 
 BUGFInv can be easily integrated into existing seismic inversion workflows for simultaneous estimation of Vp, Vs, and density:
 
@@ -54,7 +54,7 @@ import torch
 import numpy as np
 from BUGFInv import BUGFInv
 
-# Initialize BUGFInv for 3D prestack three-parameter inversion
+# Initialize BUGFInv for 3D subsurface elastic properties inversion
 bugfinv = BUGFInv(
     num_tasks=3,  # Vp, Vs, Density
     n_outputs_per_task_group=[1, 1, 1],  # Each parameter has single output
@@ -143,7 +143,7 @@ bugfinv.backward(
 BUGFInv has been extensively validated on 3D synthetic datasets, demonstrating superior performance across all evaluation metrics:
 
 ### Quantitative Performance Comparison
-The table below presents quantitative evaluation metrics comparing BUGFInv with three baseline methods for 3D prestack three-parameter inversion:
+The table below presents quantitative evaluation metrics comparing BUGFInv with three baseline methods for 3D subsurface elastic properties inversion:
 
 | Method | PCC (Vp) | R² (Vs) | SSIM (ρ) | NRMSE (Overall) |
 |--------|----------|---------|----------|-----------------|
@@ -195,10 +195,10 @@ If you use BUGFInv in your research or industrial applications, please cite:
 
 ```bibtex
 @article{liu2026bugfinv,
-  title={Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion},
+  title={Bayesian Uncertainty-Aware Gradient Fusion for 3D Subsurface Elastic Properties Inversion},
   author={Yingtian Liu, Yong Li, Junheng Peng, Xiaowen Wang, Mingwei Wang, and Jianyong Xie
 },
-  journal={IEEE TGRS},
+  journal={Arxiv},
   year={2026},
   note={Under Review}
 }
@@ -220,7 +220,7 @@ We welcome contributions from the geophysical and machine learning communities:
 
 ## 📄 Copyright Notice
 
-This code is the companion implementation of the research paper **"BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Prestack Three-Parameter Inversion"**. The manuscript is currently under review in an academic journal.
+This code is the companion implementation of the research paper **"BUGFInv: Bayesian Uncertainty-Aware Gradient Fusion for 3D Subsurface Elastic Properties Inversion"**. The manuscript is currently under review in an academic journal.
 
 Prior to the formal publication of the paper, the code is provided for academic research reference only. For any usage inquiries or collaboration interests, please contact the author through GitHub Issues.
 
@@ -241,7 +241,7 @@ For technical questions, collaboration opportunities, or consulting:
 
 ---
 
-**Note**: The complete manuscript detailing the theoretical framework, algorithmic details, and comprehensive experimental validation is currently under review. The code provided here implements the core BUGFInv algorithm for Bayesian uncertainty-aware gradient fusion in 3D prestack three-parameter seismic inversion.
+**Note**: The complete manuscript detailing the theoretical framework, algorithmic details, and comprehensive experimental validation is currently under review. The code provided here implements the core BUGFInv algorithm for Bayesian uncertainty-aware gradient fusion in 3D subsurface elastic properties inversion.
 
 
 
