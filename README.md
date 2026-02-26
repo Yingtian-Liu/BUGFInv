@@ -28,6 +28,7 @@ BUGFInv/
 │   ├── posterior.py        # Bayesian posterior inference for task-specific parameters (Gaussian prior/posterior computation)
 │   ├── setup.py            # Subpackage installation configuration
 │   └── util.py             # Auxiliary utilities (loss calculation, parameter validation, gradient processing helpers)
+├── Overthrust_data         # 3D Overthrust synthetic dataset for model validation (includes angle-domain seismic data, initial models, well-log labels, and true elastic parameter volumes)
 ├── Image/                  # Project figures and conceptual diagrams (gradient aggregation comparison, framework structure, etc.)
 └── README.md               # Project main documentation (installation, usage, technical details, citation)
 ```
